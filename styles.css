@@ -1,0 +1,165 @@
+body{
+    font-family: 'Sansita Swashed', cursive;
+}
+/* Id's */
+
+#title{
+    background-color: red;
+}
+
+#h1{
+    font-family: 'Sansita Swashed', cursive;
+    size: 3rem;
+  line-height: 1.5;
+margin-top: 4rem;
+ color: whitesmoke;
+}
+
+
+
+/* classes */
+/* navabar */
+.navbar{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-bottom: 4rem;
+
+}
+.navbar-brand{
+font-size: 2rem;
+font-weight: bold;
+}
+
+.dbuttons{
+    margin: 5% 3% 7rem 0;
+}
+
+.iphone-img{
+    height:550px; 
+    transform: rotate(32deg); 
+    padding-left: 5rem;
+    padding-bottom: 5rem;  
+     
+}
+
+
+
+/* media part */
+
+@media (min-width:992px){
+.iphone-img{
+    position: absolute;
+}
+
+.f-container{
+    position: relative;
+
+}
+
+}
+/* media part end  */
+
+#features{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-color: #fff;
+}
+.feature-box{
+    text-align: center;
+    font-family: 'Sansita Swashed', cursive;
+}
+.fa-solid{
+    padding-bottom: 1rem;
+}
+
+.feature-para{
+    color: #8f8f8f;
+}
+
+.icon{
+    color: #ef8172;
+}
+.icon:hover{
+    color: red;
+}
+
+/* testimonial section */
+#testimonials{
+    background-color:#ef8172;
+}
+.t-container{
+    text-align: center;
+   
+}
+
+.t-heading{
+    color: #fff;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    line-height: 1.5;
+    font-size: 3rem;
+   
+}
+.t-image{
+    padding-bottom: 8rem;
+    width: 12rem;
+    border-radius: 22%;
+}
+.t-em{
+    color: #fff;
+    padding-left: 2rem;
+}
+
+/* testimonial ends */
+
+/* press */
+#press{
+    background-color:#ef8172;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.p-logo{
+    width: 15%;
+margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+.card{
+    text-align: center;
+    margin: 4% 4% 4% 4%;
+}
+.card-text{
+    color: grey;
+}
+.full {
+    display: block;
+    width: 100%;
+ }
+
+ .cta{
+    padding-top: 2rem;
+    text-align: center;
+    background-color:#ef8172;
+    color:#fff;
+ }
+.cta-h{
+    font-size: 2.5rem;
+}
+ .cta-buttons{
+    margin: 5% 3% 3rem 0;
+ }
+
+.footer{
+    padding-top: 2rem;
+    text-align: center;
+}
+.fa-xl{
+    padding-top: 1rem;
+    margin: 1rem 1rem;
+    padding-bottom: 2rem;
+}
